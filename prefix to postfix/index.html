@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infix Convertor</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  
+  <div class="main-div" id="myform">
+    <form class="form-div">
+      <div>
+
+        <h2>Select Type of conversion : </h2>
+        <br>
+
+        <label for="pretopost" class="typeOfCon">
+          <input type="radio" id="pretopost" name="convertype" value="inftopost" required>     Infix to Postfix
+        </label>
+        &nbsp;&nbsp;&nbsp;
+
+        <label for="posttopre" class="typeOfCon">
+          <input type="radio" id="posttopre" name="convertype" value="inftopre" required >     Infix to Prefix
+        </label>
+
+      </div>
+      <br>
+
+      <label for="main-input" class="input-sec">Enter infix expression: </label>
+      <br><br>
+      <input type="text" class="express-input" id="main-input" name="main-input" required>
+      <br>
+      <div class="output-sec">
+        <h2>Output : </h3><br>
+        <input type="text" id="mainoutput" class="express-input" value="None" readonly>
+      </div>
+      <br><br><br>
+      <input type="submit" value="Submit" class="btn">
+    </form>
+  </div>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

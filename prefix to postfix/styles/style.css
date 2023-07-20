@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  background-color: blueviolet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+  width: 100%;
+  display: block;
+}
+.main-div{
+  height: 480px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+  padding: 2rem;
+  /* display: flex; */
+  border-radius: 5px;
+}
+
+.form-div{
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.typeOfCon{
+  font-size: 1.3em;
+}
+
+
+
+.express-input{
+  display: block;
+  width: 80%;
+  height: 30px;
+  font-size: 1.5em;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.input-sec{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.btn{
+  text-align: center;
+  margin: 0 auto;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 1.5em;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: 3px solid white;
+  margin-left: 35%;
+  border-radius: 10px;
+}
+
+
+
+
+@media screen and (min-width:250px) and (max-width:374px){
+  
+  .main-div{
+    height: 480px;
+    width: 300px;
+    font-size: 17px;
+    border: 4px solid black;
+  }
+  .express-input{
+    width: 100%;
+    height: 35px;
+    font-size: 20.8px;
+  }
+  .typeOfCon{
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width:375px) and (max-width:423px){
+  .main-div{
+    height: 430px;
+    width: 300px;
+    border: 4px solid black;
+  }
+  .express-input{
+    width: 100%;
+    height: 35px;
+    font-size: 20.8px;
+  }
+  .typeOfCon{
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width:424px) and (max-width:767px){
+  .main-div{
+    height: 420px;
+    width: 390px;
+    border: 4px solid black;
+  }
+  .express-input{
+    width: 100%;
+    height: 35px;
+    font-size: 20.8px;
+  }
+  .typeOfCon{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .main-div{
+    height: 400px;
+    width: 400px;
+    border: 4px solid black;
+  }
+  .express-input{
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+  }
+  .typeOfCon{
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+  .main-div{
+    height: 430px;
+    width: 380px;
+    border: 4px solid black;
+  }
+  .express-input{
+    width: 100%;
+    height: 35px;
+    font-size: 24px;
+  }
+  .typeOfCon{
+    font-size: 1.2em;
+  }
+}
